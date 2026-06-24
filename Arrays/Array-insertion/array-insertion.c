@@ -92,3 +92,18 @@ int main()
 //     return 0;
 // }
 
+/*
+In summary: Complexity:
+Insert at beginning => O(n) (because of shifting)
+Insert in middle => O(n) (because of shifting)
+Insert at end => O(1)
+In the worst case, the insertion point could be very close to the beginning, causing almost all elements to shift.
+
+Operation                      Complexity
+Access by index                O(1)
+Update by index                O(1)
+Traverse array                 O(n)
+Insert at beginning            O(n)
+Insert in middle               O(n)
+Insert at end                  O(1)
+*/
